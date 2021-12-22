@@ -1,0 +1,202 @@
+.list {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+:root {
+  --color-general-: #212121;
+  --color-second-: #2196f3;
+  --color-h1-: #ffffff;
+  --color-text-: #757575;
+  --background-scond: #2f303a;
+  --background-button-: #2196f3;
+  --background-heder-: #ffffff;
+  --background-general: #e5e5e5;
+  --background-portf-button: #f5f4fa;
+}
+body {
+  /* background-color: var(--background-general); */
+  background-color: var(--background-heder-);
+  color: var(--color-text-);
+  font-family: Roboto, sans-serif;
+}
+
+/* скритий текст */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* стилізація шапки */
+.header-style {
+  background-color: var(--background-heder-);
+}
+.logo {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-second {
+  color: #000000;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-three {
+  color: var(--background-heder-);
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.site-nav .link {
+  color: var(--color-general-);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--color-second-);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.aut-nav .a-link {
+  color: var(--color-text-);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.aut-nav .a-link:hover,
+.aut-nav .a-link:focus {
+  color: var(--color-second-);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+/* стилізація героя */
+.heroe {
+  background-color: var(--background-scond);
+  color: var(--color-h1-);
+}
+.heroe-main {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+.button-styles {
+  background-color: var(--color-second-);
+  color: var(--color-h1-);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+}
+.button-styles:hover,
+.button-styles:focus {
+  background-color: #188ce8;
+}
+/* стилізвція майн */
+
+.site-we .we-title {
+  color: var(--color-general-);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.site-we .we-text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.our-work {
+  color: var(--color-general-);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+/* стилізація команди */
+.comand {
+  background-color: var(--background-portf-button);
+}
+.our-comand {
+  color: var(--color-general-);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+}
+.name {
+  color: var(--color-general-);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.position {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* стилізація футера */
+
+.fotter-styles {
+  background-color: var(--background-scond);
+}
+
+.adsress-styles {
+  color: var(--color-h1-);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.contact .cont-list {
+  color: var(--color-text-);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* стилізація портфоліо */
+
+.portf-main {
+  background-color: var(--background-heder-);
+}
+
+.button-list {
+  background-color: var(--background-portf-button);
+  color: var(--color-general-);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+.button-list:hover,
+.button-list:focus {
+  background-color: var(--background-button-);
+  color: var(--background-heder-);
+}
+
+.project-title {
+  color: var(--color-general-);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+}
+.product {
+  font-size: 16px;
+  line-height: 1.88;
+}
