@@ -5,16 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <!-- шрифт -->
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,500;0,700;0,900;1,400&display=swap"
       rel="stylesheet">
+      <!-- нормалізатор -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- стиль -->
     <link rel="stylesheet" href="./css/styles.css" />
   
   </head>
   <body>
     <!-- Хедер -->
     <header class="header-style">
-      <nav class="nav">
+      <!-- <div class="container"> -->
+      <nav class="nav container">
         <a class="logo" href="./index.html"
           >Web <samp class="logo-second">Studio</samp>
         </a>
@@ -24,7 +31,8 @@
           <li><a href="" class="link">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="aut-nav list">
+    
+      <ul class="aut-nav list container">
         <li>
           <a href="mailto:info@devstudio.com" class="a-link"
             >info@devstudio.com</a
@@ -34,9 +42,10 @@
           <a href="tel:+380961111111" class="a-link">+38 096 111 11 11</a>
         </li>
       </ul>
+<!-- </div> -->
     </header>
     <!-- Герой -->
-    <section class="heroe">
+    <section class="heroe container">
       <h1 class="heroe-main">Ефективне рішення <br> для Вашого бізнесу</h1>
       <button type="button" class="button-styles">Замовити послугу</button>
     </section>
@@ -48,6 +57,8 @@
 
       <!-- Переваги -->
       <section class="we">
+        <div>
+        <div class="container">
         <ul class="site-we list">
           <li>
             <h3 class="we-title">Увага до деталей</h3>
@@ -78,10 +89,12 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
 
       <!-- Чим замаємся -->
       <section class="work">
+        <div class="container">
         <h2 class="our-work">Чим ми займаємось</h2>
         <ul class="foto-work list">
           <li>
@@ -94,9 +107,11 @@
             <img src="./images/box3.jpg" alt="Планшет" width="370" />
           </li>
         </ul>
+        </div>
       </section>
       <!-- Про команду -->
-      <section class="comand">
+      <section class="comand container">
+        <!-- <div class="container"> -->
         <h2 class="our-comand">Наша команда</h2>
         <ul class="about-we list">
           <li>
@@ -120,10 +135,12 @@
             <p class="position">UI Designer</p>
           </li>
         </ul>
+        <!-- </div> -->
       </section>
     </main>
     <!-- Футер -->
-    <footer class="fotter-styles">
+    <footer class="fotter-styles container">
+      <div class="container">
       <a class="logo" href="./index.html"
         >Web <samp class="logo-three">Studio</samp>
       </a>
@@ -138,6 +155,7 @@
           <a href="tel:+380961111111" class="cont-list">+38 096 111 11 11</a>
         </li>
       </ul>
+      </div>
     </footer>
   </body>
 </html>
