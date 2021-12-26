@@ -21,18 +21,24 @@
     <!-- Хедер -->
     <header class="header-style">
       <!-- <div class="container"> -->
-      <nav class="nav container">
-        <a class="logo" href="./index.html"
-          >Web <samp class="logo-second">Studio</samp>
-        </a>
+        <section class="head">
+          <div class="container">
+            <div class="heder-navi">
+              <div class="logo-general">
+            <a class="logo" href="./index.html">Web<samp class="logo-second">Studio</samp>
+            </a>
+            </div>
+            <div class="navi-general">
+      <nav class="nav">
         <ul class="site-nav list">
           <li><a href="./index.html" class="link">Студія</a></li>
           <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
           <li><a href="" class="link">Контакти</a></li>
         </ul>
       </nav>
-    
-      <ul class="aut-nav list container">
+      </div>
+      <div class="aut-navi-general">
+      <ul class="aut-nav list">
         <li>
           <a href="mailto:info@devstudio.com" class="a-link"
             >info@devstudio.com</a
@@ -42,12 +48,20 @@
           <a href="tel:+380961111111" class="a-link">+38 096 111 11 11</a>
         </li>
       </ul>
+      </div>
+      </div>
+      </div>
+      </section>
 <!-- </div> -->
     </header>
     <!-- Герой -->
-    <section class="heroe container">
+    <section class="heroe">
+      <div class="container">
       <h1 class="heroe-main">Ефективне рішення <br> для Вашого бізнесу</h1>
+      <div class="button-hero">
       <button type="button" class="button-styles">Замовити послугу</button>
+      </div>
+      </div>
     </section>
 
     <!-- Майн -->
@@ -57,31 +71,31 @@
 
       <!-- Переваги -->
       <section class="we">
-        <div>
         <div class="container">
+          <div class="we-general">
         <ul class="site-we list">
-          <li>
+          <li class="we-item">
             <h3 class="we-title">Увага до деталей</h3>
             <p class="we-text">
               Внимание к деталям Идейные соображения, а также начало
               повседневной работы по формированию позиции.
             </p>
           </li>
-          <li>
+          <li class="we-item">
             <h3 class="we-title">Пунктуальність</h3>
             <p class="we-text">
               Пунктуальность Задача организации, в особенности же рамки и место
               обучения кадров влечет за собой.
             </p>
           </li>
-          <li>
+          <li class="we-item">
             <h3 class="we-title">Планування</h3>
             <p class="we-text">
               Планирование Равным образом консультация с широким активом в
               значительной степени обуславливает.
             </p>
           </li>
-          <li>
+          <li class="we-item">
             <h3 class="we-title">Новітні технології</h3>
             <p class="we-text">
               Современные технологии Значимость этих проблем настолько очевидна,
@@ -90,60 +104,72 @@
           </li>
         </ul>
         </div>
+        </div>
       </section>
 
       <!-- Чим замаємся -->
       <section class="work">
         <div class="container">
+          <div class="work-general">
         <h2 class="our-work">Чим ми займаємось</h2>
         <ul class="foto-work list">
-          <li>
+          <li class="item">
             <img src="./images/box1.jpg" alt="Копютер" width="370" />
           </li>
-          <li>
+          <li class="item">
             <img src="./images/box2.jpg" alt="Ноутбук" width="370" />
           </li>
-          <li>
+          <li class="item">
             <img src="./images/box3.jpg" alt="Планшет" width="370" />
           </li>
         </ul>
         </div>
+        </div>
       </section>
       <!-- Про команду -->
-      <section class="comand container">
-        <!-- <div class="container"> -->
+      <section class="comand">
+        <div class="container">
         <h2 class="our-comand">Наша команда</h2>
         <ul class="about-we list">
-          <li>
+          <li class="item">
+            <div class="item-general">
             <img src="./images/img1.jpg" alt="Ігор Демяненко" width="270" />
             <h3 class="name">Ігор Демяненко</h3>
             <p class="position">Product Designer</p>
+            </div>
           </li>
-          <li>
+          <li class="item">
+            <div class="item-general">
             <img src="./images/img2.jpg" alt="Ольга Рєпіна" width="270" />
             <h3 class="name">Ольга Рєпіна</h3>
             <p class="position">Frontend Developer</p>
+            </div>
           </li>
-          <li>
+          <li class="item">
+            <div class="item-general">
             <img src="./images/img3.jpg" alt="Микола Тарасов" width="270" />
             <h3 class="name">Микола Тарасов</h3>
             <p class="position">Marketing</p>
+            </div>
           </li>
-          <li>
+          <li class="item">
+            <div class="item-general">
             <img src="./images/img4..jpg" alt="Михайло Єрмаков" width="270" />
             <h3 class="name">Михайло Єрмаков</h3>
             <p class="position">UI Designer</p>
+            </div>
           </li>
         </ul>
-        <!-- </div> -->
+        </div>
       </section>
     </main>
     <!-- Футер -->
-    <footer class="fotter-styles container">
+    <footer class="fotter-styles head">
       <div class="container">
       <a class="logo" href="./index.html"
-        >Web <samp class="logo-three">Studio</samp>
+        >Web<samp class="logo-three">Studio</samp>
       </a>
+      <div class="fotter-adress">
       <address class="adsress-styles">м. Київ, пр-т Лесиі Українки, 26</address>
       <ul class="contact list">
         <li>
@@ -155,6 +181,7 @@
           <a href="tel:+380961111111" class="cont-list">+38 096 111 11 11</a>
         </li>
       </ul>
+      </div>
       </div>
     </footer>
   </body>
