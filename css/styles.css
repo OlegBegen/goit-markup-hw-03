@@ -20,7 +20,6 @@ body {
   background-color: var(--background-heder-);
   color: var(--color-text-);
   font-family: Roboto, sans-serif;
-  width: max-content;
 }
 
 /* скритий текст */
@@ -67,6 +66,7 @@ body {
   height: 16px;
   justify-content: space-between;
   padding-left: 0;
+  margin: 0;
   /* padding-top: 32px;
   padding-bottom: 32px; */
 }
@@ -136,10 +136,10 @@ body {
 
 /* стилізація героя */
 .heroe {
+  padding: 200px 0;
   background-color: var(--background-scond);
   color: var(--color-h1-);
-  width: 1600px;
-  /* border: 5px solid tomato; */
+  max-width: 1600px;
 }
 .heroe-main {
   font-weight: 900;
@@ -147,14 +147,9 @@ body {
   line-height: 1.36;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 200px;
   margin-top: 0;
 }
-.button-hero {
-  padding-bottom: 200px;
-  padding-right: 500px;
-  padding-left: 500px;
-}
+
 .button-styles {
   background-color: var(--color-second-);
   color: var(--color-h1-);
@@ -162,13 +157,10 @@ body {
   font-size: 16px;
   line-height: 1.88;
   cursor: pointer;
-
-  width: 200px;
-  height: 50px;
-  padding-top: 10px;
-  padding-right: 32px;
-  padding-bottom: 10px;
-  padding-left: 10px;
+  padding: 10px 32px;
+  border: none;
+  margin: 0 auto;
+  display: block;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -178,6 +170,13 @@ body {
 }
 /* стилізвція майн */
 
+.section {
+  padding: 94px 0;
+}
+
+.section-mod {
+  padding-bottom: 0;
+}
 .site-we .we-title {
   color: var(--color-general-);
   font-weight: bold;
@@ -186,9 +185,6 @@ body {
   text-transform: uppercase;
 }
 
-.we-general {
-  padding-top: 94px;
-}
 .site-we {
   display: flex;
   justify-content: space-between;
@@ -207,9 +203,7 @@ body {
 .we-item:not(:last-child) {
   margin-right: 30px;
 }
-.work-general {
-  padding-top: 94px;
-}
+
 .our-work {
   color: var(--color-general-);
   font-weight: bold;
@@ -222,6 +216,7 @@ body {
 .foto-work {
   display: flex;
   padding-left: 0;
+  margin: 0;
 }
 .foto-work .item:not(:last-child) {
   margin-right: 30px;
@@ -244,7 +239,6 @@ body {
 .about-we {
   width: 270px;
   padding-left: 0;
-  padding-bottom: 94px;
   margin: 0;
   display: flex;
   justify-content: space-between;
@@ -258,13 +252,16 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+.person-item {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .name {
   color: var(--color-general-);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  padding-top: 30px;
   margin: 0;
   padding-bottom: 10px;
 }
@@ -274,7 +271,6 @@ body {
   line-height: 1.19;
   text-align: center;
   margin: 0;
-  padding-bottom: 30px;
 }
 
 /* стилізація футера */
@@ -282,11 +278,11 @@ body {
 .fotter-styles {
   background-color: var(--background-scond);
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .fotter-adress {
   padding-top: 20px;
-  padding-bottom: 60px;
 }
 .adsress-styles {
   color: var(--color-h1-);
@@ -306,6 +302,10 @@ body {
   font-size: 14px;
   line-height: 1.71;
   padding-top: 9px;
+}
+.cont-list:hover,
+.cont-list:focus {
+  color: var(--color-second-);
 }
 
 /* стилізація портфоліо */
@@ -374,13 +374,19 @@ body {
 .project-general:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
+.product-general {
+  padding: 20px 24px;
+}
 .project-title {
   color: var(--color-general-);
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
+  margin-bottom: 4px;
+  margin-top: 0;
 }
 .product {
   font-size: 16px;
   line-height: 1.88;
+  margin: 0;
 }
